@@ -1,0 +1,17 @@
+# ---- 补丁工具的本地产物（体积大 / 与具体机器相关，绝不提交） ----
+patch/backup/
+patch/work/*.js
+patch/work/*.ps1
+patch/work/asar-tool/node_modules/
+patch/work/release-assets/
+patch/apply-status.log
+patch/apply-done.json
+patch/dsh-root.txt
+patch/*.log
+
+# ---- 通用 ----
+node_modules/
+*.tgz
+*.zip
+.DS_Store
+Thumbs.db
