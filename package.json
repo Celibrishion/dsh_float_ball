@@ -32,12 +32,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Celibrishion/dsh-float-ball.git"
+    "url": "git+https://github.com/Celibrishion/dsh_float_ball.git"
   },
   "bugs": {
-    "url": "https://github.com/Celibrishion/dsh-float-ball/issues"
+    "url": "https://github.com/Celibrishion/dsh_float_ball/issues"
   },
-  "homepage": "https://github.com/Celibrishion/dsh-float-ball#readme",
+  "homepage": "https://github.com/Celibrishion/dsh_float_ball#readme",
   "author": "Celibrishion",
   "engines": {
     "node": ">=18"
