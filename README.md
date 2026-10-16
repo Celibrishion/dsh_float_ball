@@ -73,7 +73,7 @@
 | 来源 | 填什么 |
 |---|---|
 | registry（npm） | `dsh-float-ball` |
-| git 仓库 | `https://github.com/<你>/dsh-float-ball` |
+| git 仓库 | `https://github.com/Celibrishion/dsh_float_ball` |
 | tarball | `https://.../dsh-float-ball-0.1.6.tgz` |
 | 本地目录 | 绝对路径 |
 
