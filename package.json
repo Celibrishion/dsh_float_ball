@@ -1,0 +1,45 @@
+{
+  "name": "dsh-float-ball",
+  "version": "0.1.6",
+  "description": "DSH 桌面端托盘悬浮球：DSH 收进托盘后桌面出现一个白色圆形悬浮球（DSH 虎鲸图标），左键可拖到任意位置，单击把 DSH 唤回前台。Windows only。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "desktop",
+    "tray",
+    "floating-ball",
+    "always-on-top",
+    "windows"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "files": [
+    "lib",
+    "assets",
+    "icon.png",
+    "cordis.patch.yml",
+    "README.md",
+    "PROVENANCE.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Celibrishion/dsh-float-ball.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Celibrishion/dsh-float-ball/issues"
+  },
+  "homepage": "https://github.com/Celibrishion/dsh-float-ball#readme",
+  "author": "Celibrishion",
+  "engines": {
+    "node": ">=18"
+  }
+}

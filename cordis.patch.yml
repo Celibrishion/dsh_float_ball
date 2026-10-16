@@ -1,0 +1,15 @@
+# ============================================================================
+# dsh-float-ball —— DSH bundle patch（挂载声明）
+# ============================================================================
+# DSH 启动时按 bundle 层栈叠加各插件的 patch；这一层把本插件的宿主半区
+# 插进当前 profile 的配置树（桌面端是 desktop profile）。
+#
+# 安装（桌面端 profile 由 Electron 应用独占，命令行 dsh plugin 会拒绝 --profile desktop，
+# 所以桌面端要在会话里让宿主内置的 plugin_manager 装；Web 端才用 dsh plugin）：
+#   桌面端：在 DSH 会话里说「用 plugin_manager 安装 <本目录绝对路径>」
+#   Web 端：dsh plugin --profile web add link:<本目录绝对路径>
+# ============================================================================
+
+- insert:
+    - id: dsh-float-ball
+      name: dsh-float-ball
